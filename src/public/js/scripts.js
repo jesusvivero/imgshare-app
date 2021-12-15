@@ -1,3 +1,13 @@
+const btnToggleComment = document.getElementById('btn-toggle-comment');
+
+if (btnToggleComment) {
+  btnToggleComment.addEventListener('click', e => {
+    e.preventDefault;
+
+  });
+}
+
+
 const btnLike = document.getElementById('btn-like');
 
 if (btnLike) {
